@@ -1,0 +1,13 @@
+/* 我的酱油*/ 
+.mysoy{
+	
+}
+.mysoy .title{
+	font-size: 15px;
+	line-height: 30px;
+	color: #5a5a5a;
+	padding-left: 20px;
+	background: url(../img/icon_cha.png) no-repeat 5px 0 #f8f8f4;
+	background-size: 12px 28px;
+	height: 30px;
+}
