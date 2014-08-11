@@ -1,0 +1,48 @@
+/* 锋味故事*/
+.feng-story{
+	color: #5a5a5a;
+	font-size: 15px;
+	line-height: 20px;
+}
+.feng-story .title{
+	clear: both;
+	font-size: 15px;
+	line-height: 30px;
+	color: #5a5a5a;
+	padding-left: 20px;
+	background: url(../img/icon_cha.png) no-repeat 5px 0 #f8f8f4;
+	background-size: 12px 28px;
+	height: 30px;
+}
+
+.feng-story .article{
+	padding: 0 10px;
+}
+.feng-story .article .content{
+	padding: 15px 0;
+}
+
+.feng-story .article .slider{
+	width: 300px;
+	height: 160px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.feng-story .article .slider img{
+	width: 300px;
+	overflow: hidden;
+}
+.feng-story .article .juji{
+	margin-top: 10px;
+	width: 250px;
+	margin: 0 auto;
+	text-align: center;
+}
+.feng-story .article .juji img{
+	width: 250px;
+}
+.feng-story .article .juji p:last-child{
+	margin-top: 10px;
+	background: url(../img/icon_ji.png) no-repeat center center;
+	background-size: 50%;
+}
