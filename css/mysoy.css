@@ -3,6 +3,7 @@
 	
 }
 .mysoy .title{
+	clear: both;
 	font-size: 15px;
 	line-height: 30px;
 	color: #5a5a5a;
@@ -10,4 +11,129 @@
 	background: url(../img/icon_cha.png) no-repeat 5px 0 #f8f8f4;
 	background-size: 12px 28px;
 	height: 30px;
+}
+.mysoy .get-soy{
+	padding: 10px 0 0 0;
+
+	display: -moz-box; 
+    display: -webkit-box; 
+    display: box; 
+}
+.mysoy .get-soy .soy-num{
+	padding: 0 10px 10px 10px;
+	width: 130px;
+}
+.mysoy .get-soy .soy-num img{
+	width: 120px;
+}
+.mysoy .get-soy .soy-text{
+	padding-top: 25px;
+	color: #5a5a5a;
+	font-size: 12px;
+	line-height: 20px;
+	
+	-moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+}
+.mysoy .get-soy .get-action{
+	padding-top: 10px;
+}
+.mysoy .get-soy .get-action span{
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+	font-size: 15px;
+	height: 30px;
+	padding-top: 10px;
+}
+.mysoy .get-soy .get-action span.btn-again{
+	background: url(../img/btn_gray.png) repeat-x;
+	background-size: 50px;
+	color: #7b4c36;
+	border: 1px solid #ab9568;
+	border-radius: 5px;
+}
+.mysoy .get-soy .get-action span.btn-duihuan{
+	color: #b0b1b2;
+	background: #d3d3d3;
+	border: 1px solid #bebbb6;
+	border-radius: 5px;
+}
+.mysoy .get-soy .soy-action{
+	clear: both;
+}
+
+/* user list */
+.mysoy .user-list{
+	padding: 10px  0 0 20px;
+}
+.mysoy .user-list .user-item{
+	padding-bottom: 10px;
+	color: #5a5a5a;
+	line-height: 15px;
+	font-size: 12px;
+}
+.mysoy .user-list .user-item img{
+	width: 26px;
+	height: 26px;
+}
+.mysoy .title span{
+	display: inline-block;
+}
+.mysoy .title .title-right{
+	float: right;
+	text-align: right;
+}
+.mysoy .title .title-right a{
+	color: #c53720;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/* story list */
+.mysoy .story-list{
+	padding: 10px  0 0 20px;
+	margin-bottom: 10px;
+}
+.mysoy .story-list .story-item{
+	padding-bottom: 10px;
+	color: #5a5a5a;
+	line-height: 15px;
+	font-size: 12px;
+	display: -moz-box; 
+    display: -webkit-box; 
+    display: box; 
+}
+.mysoy .story-list .story-item .avatar{
+	width: 26px;
+	margin-right: 10px;
+}
+.mysoy .story-list .story-item .avatar img{
+	width: 26px;
+	height: 26px;
+}
+.mysoy .story-list .story-item .stroy-detail{
+	-moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+    margin-right: 10px;
+}
+.mysoy .story-list .story-item .stroy-detail p:last-child{
+	padding: 3px 2px;
+	border: 1px solid #d3d0cd;
+	background: #fafafa;
+	color: #b5b0b0;
+	line-height: 15px;
+}
+.mysoy .story-list .more-story{
+	width: 146px;
+	margin: 0 auto;
+}
+.mysoy .story-list .more-story .btn-more-story{
+	width: 146px;
+	height: 36px;
+	background: url(../img/btn_more_story.png) no-repeat;
+	background-size: 100%;
+	display: block;
 }
