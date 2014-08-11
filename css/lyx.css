@@ -21,6 +21,18 @@
 .index-wrap .action{
 	padding-bottom: 20px;
 }
+.index-wrap .action .btn-red{
+	background: url(../img/bg_btn_red.png) repeat-x;
+	background-size: 50%;
+	width: 300px;
+	height: 35px;
+	border-radius: 5px;
+	display: block;
+	text-align: center;
+	margin: 15px 0;
+	color: #fff;
+	padding-top: 15px;
+}
 
 /* send list pop*/
 .send-pop{
@@ -154,3 +166,9 @@
 .send-cancel span:last-child{
 	font-size: 12px;
 }
+
+
+.send-pop-notice { margin: 0 2%; }
+.send-pop-notice h2 { text-align: center; padding: 15px 0 10px; margin: 0; }
+.send-pop-notice h2 img {display: inline-block;}
+.send-pop-notice .send-pop-cont p { font:normal 0.8em/1.8 '\5FAE\8F6F\96C5\9ED1'; color: #af9775; padding: 0 5%; }

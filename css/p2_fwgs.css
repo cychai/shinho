@@ -1,0 +1,19 @@
+/* 峰味故事 */ 
+.fwgs .title{
+	font-size: 15px;
+	line-height: 30px;
+	color: #5a5a5a;
+	padding-left: 20px;
+	background: url(../img/icon_cha.png) no-repeat 5px 0 #f8f8f4;
+	background-size: 12px 28px;
+	height: 30px;
+}
+.fwgs .fwgs-cont { width:90%; margin: 0 auto;}
+.fwgs .fwgs-cont ul { font:normal 12px/18px ''\5FAE\8F6F\96C5\9ED1''; color: #5a5a5a; padding:0;}
+.fwgs .fwgs-cont li { position: relative; list-style: none; margin: 10px 0 15px;}
+.fwgs .fwgs-cont li .picHead { position: absolute; left:0; top: 2px; }
+.fwgs .fwgs-cont li .info { padding-left: 35px;  }
+.fwgs .fwgs-cont li .info .name { font-weight: bold; padding-left: 3px;  }
+.fwgs .fwgs-cont li .info .topic { font-weight: normal; color: #989191; background-color: #fafafa; border: 1px solid #BCBCBC; padding: 6px; margin-top: 5px; border-radius: 4px; }
+
+.fwgs .btn-bar { font:bold 12px/18px ''\5FAE\8F6F\96C5\9ED1''; color: #a08f86; text-align: center; margin: 10px 0 20px;}
