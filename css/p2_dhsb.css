@@ -1,0 +1,5 @@
+/* 兑换失败 */ 
+.dhsb { width:320px; margin: 0 auto;}
+.dhsb .pic { margin: 30px 0;}
+.dhsb .pic img { display: block; margin: 0 auto;}
+.dhsb .btn-back { display: block; width: 300px; height: 39px; background: url(../img/p2_btn_back.png) no-repeat 0 0; margin-bottom: 30px;}

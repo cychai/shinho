@@ -21,8 +21,20 @@
             <img src="img/text_share.png" alt="">
          </div>
          <div class="slider">
-            <img src="img/temp_slider.png" alt="">
+            <div id='mySwipe' class='swipe'>
+               <div class='swipe-wrap'>
+                  <div><img src="img/temp/pic_300x163_01.jpg" alt=""></div>
+                  <div><img src="img/temp/pic_300x163_00.jpg" alt=""></div>
+                  <div><img src="img/temp/pic_300x163_01.jpg" alt=""></div>
+                  <div><img src="img/temp/pic_300x163_00.jpg" alt=""></div>
+               </div>
+            </div>
+            <div class="swipe-page" >
+               <ul id="swipe-page">
+               </ul>
+            </div>
          </div>
+
          <div class="action">
             <span class="btn-red btn-join">我要打一瓶</span>
          </div>
@@ -100,8 +112,21 @@
             </div>
          </div>
       </div>
+      
+      <!-- 公告弹窗 -->
+      <div class="send-pop send-pop-notice" style="display: node;">
+         <div class="send-pop-cont">
+            <h2><img src="img/p2_icon_notice.png" alt=""></h2>
+            <p>感谢您对六月鲜“大家一起打酱油”活动的关注！ </p>
+            <p>本活动已结束。</p>
+            <p>已经获得“订制酱油”的用户，请及时填写邮寄信息机及爱心卡片。</p>
+            <p>信息收集成功后，我们将尽量为您发送快递。</p>
+         </div>
+      </div>
+
    </div>
 </body>
 <script src="js/jquery.js"></script>
+<script src='js/swipe.js'></script>
 <script src="js/lyx.js"></script>
 </html>

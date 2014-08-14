@@ -27,15 +27,25 @@
             </span>
          </div>
          <div class="get-soy">
-            <div class="soy-num">
-               <img src="img/soy_num.png" alt="">
+            <div class="soy-wrap">
+               <div class="soy-ruler">
+                  <img src="img/soy_ruler.png" alt="">
+                  <span class="soy-ruler-numT">160ml</span>
+                  <span class="soy-ruler-numNow">
+                     <strong><span></span>ml</strong><img src="img/soy_ruler_icon.png" alt="">
+                  </span>
+                  <span class="soy-ruler-numB">0</span>
+               </div>
+               <div class="soy-num">
+                  <img src="img/soy_num.png" alt="">
+               </div>
             </div>
             <div class="soy-text">
                <p style="font-size:15px; line-height:20px;">王小二 为闺蜜打的酱油</p>
                <p style="border-bottom: 1px dotted #ca3f14; padding-bottom: 5px; margin-bottom:10px;">还差30毫升，即可兑换酱油一瓶！</p>
                
                <div class="ta-feng-story">
-                  <p>
+                  <p class="p-head">
                      <span class="avatar">
                         <img src="img/temp/temp_avatar_01.png" alt="">
                      </span>
@@ -92,4 +102,13 @@
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/lyx.js"></script>
+<script type="text/javascript">
+   $(function(){
+      var data = 100;  // 数据接口：让开发提供数据
+      var dataChange = parseInt(data,10) * 150 / 160 ;
+      var bottom = parseInt(dataChange,10) - 7
+      $('.soy-ruler-numNow strong span').text(data);
+      $('.soy-ruler-numNow').css({'bottom':bottom+'px'});
+   });
+</script>
 </html>

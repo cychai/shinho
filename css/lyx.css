@@ -154,3 +154,31 @@
 .send-cancel span:last-child{
 	font-size: 12px;
 }
+
+/* 公告弹窗 */
+.send-pop-notice { margin: 0 2%; }
+.send-pop-notice h2 { text-align: center; padding: 15px 0 10px; margin: 0; }
+.send-pop-notice h2 img {display: inline-block;}
+.send-pop-notice .send-pop-cont p { font:normal 0.8em/1.8 '\5FAE\8F6F\96C5\9ED1'; color: #af9775; padding: 0 5%; }
+
+/* 轮转 */
+.swipe {
+  overflow: hidden;
+
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:300px;
+  position: relative;
+}
+
+.slider { position: relative; width: 300px; height: 163px; z-index: 9;}
+.slider .swipe-page {position: absolute; left:0; bottom: 10px;width: 300px; text-align: center; z-index: 99; }
+.slider .swipe-page ul {padding: 0; margin: 0;}
+.slider .swipe-page li { list-style: none; display: inline-block; width: 6px;height: 6px; vertical-align: middle; background-color: #b98459; padding: 2px; margin: 0 3px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+.slider .swipe-page li.on { width: 10px;height: 10px; background-color: #ffd322; padding: 0; }
