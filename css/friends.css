@@ -3,7 +3,7 @@
    
 }
 .friends .thanks{
-   margin: 10px;
+   margin: 10px 10px 10px 10px;
    border-bottom: 1px dotted #b4b3af;
 
    display: -moz-box; 
@@ -15,17 +15,17 @@
 }
 .friends .thanks .avatar{
    width: 45px;
-   margin-right: 3px;
+   margin-right: 15px;
 }
 .friends .thanks .avatar img{
    width: 45px;
    height: 45px;
 }
 .friends .thanks .thx-content{
+   position:relative;
    -moz-box-flex: 1; 
    -webkit-box-flex: 1; 
    box-flex: 1;
-
    font-size: 12px;
    line-height: 18px;
    color: #989191;
@@ -33,7 +33,9 @@
    border: 1px solid #bcbcbc;
    background: url(../img/icon_poiner.png) no-repeat -6px center #f8f8f8;
    background-size: 6px 14px;
+   z-index:9;
 }
+.friends .thanks .thx-content .icon-corner { position: absolute; left: -7px; top: 50%; display: block; width: 7px;  height: 13px; background: url(../img/icon-corner.png) no-repeat 0 0; margin:-6px 0 0 0; }
 .friends .thanks span{
    
 }

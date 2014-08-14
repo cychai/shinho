@@ -23,6 +23,7 @@
                <img src="img/temp/temp_avatar_01.png" alt="">
             </span>
             <span class="thx-content">
+               <i class="icon-corner"></i>
                亲，非常感谢！你的点击帮我打到了35毫升酱油。你也来一瓶吧~
             </span>
          </div>
@@ -101,10 +102,9 @@
    </div>
 </body>
 <script src="js/jquery.js"></script>
-<script src="js/lyx.js"></script>
 <script type="text/javascript">
    $(function(){
-      var data = 100;  // 数据接口：让开发提供数据
+      var data = 100;
       var dataChange = parseInt(data,10) * 150 / 160 ;
       var bottom = parseInt(dataChange,10) - 7
       $('.soy-ruler-numNow strong span').text(data);

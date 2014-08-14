@@ -19,8 +19,18 @@
       <div class="mysoy">
          <div class="title">我为“基友”打的酱油</div>
          <div class="get-soy">
-            <div class="soy-num">
-               <img src="img/soy_num.png" alt="">
+            <div class="soy-wrap">
+               <div class="soy-ruler">
+                  <img src="img/soy_ruler.png" alt="">
+                  <span class="soy-ruler-numT">160ml</span>
+                  <span class="soy-ruler-numNow">
+                     <strong><span></span>ml</strong><img src="img/soy_ruler_icon.png" alt="">
+                  </span>
+                  <span class="soy-ruler-numB">0</span>
+               </div>
+               <div class="soy-num">
+                  <img src="img/soy_num.png" alt="">
+               </div>
             </div>
             <div class="soy-text">
                <p style="font-size:15px; line-height:20px;">恭喜打到 <font style="color: #03a574;">30毫升</font> 酱油</p>
@@ -90,5 +100,13 @@
    </div>
 </body>
 <script src="js/jquery.js"></script>
-<script src="js/lyx.js"></script>
+<script type="text/javascript">
+   $(function(){
+      var data = 90;
+      var dataChange = parseInt(data,10) * 150 / 160 ;
+      var bottom = parseInt(dataChange,10) - 7
+      $('.soy-ruler-numNow strong span').text(data);
+      $('.soy-ruler-numNow').css({'bottom':bottom+'px'});
+   });
+</script>
 </html>

@@ -17,3 +17,5 @@
 .fwgs .fwgs-cont li .info .topic { font-weight: normal; color: #989191; background-color: #fafafa; border: 1px solid #BCBCBC; padding: 6px; margin-top: 5px; border-radius: 4px; }
 
 .fwgs .btn-bar { font:bold 12px/18px ''\5FAE\8F6F\96C5\9ED1''; color: #a08f86; text-align: center; margin: 10px 0 20px;}
+
+body{padding-bottom: 50px }

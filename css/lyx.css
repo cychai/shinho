@@ -28,7 +28,7 @@
 }
 
 .send-pop{
-	background: #414140;
+	background: rgba(0,0,0,0.75);
 	padding-bottom: 30px;
 }
 .send-pop .send-title{

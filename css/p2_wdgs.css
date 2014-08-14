@@ -46,12 +46,14 @@
 
 .rule .rule-wdgs .rule-content { padding-bottom:10px;}
 .rule-wdgs { display: block; width: 295px; margin: 0 auto;}
-.rule-wdgs-top { width: 255px; height:65px; background:url(../img/p2_icon_mailTop.png) no-repeat 0 0;  }
-.rule-wdgs-cont { width: 255px; background:url(../img/p2_icon_mailCont.png) repeat-y center 0; }
-.rule-wdgs-bottom { width: 255px; height:26px; background:url(../img/p2_icon_mailBottom.png) no-repeat 0 0;  }
-.rule-wdgs-cont p { width: 225px;  font-size: 12px; color: #c0c0c0; padding: 4px 0px; border-bottom:1px solid #eee; margin: 0 auto;}
+.rule-wdgs-top { width: 255px; height:65px; background:url(../img/p2_icon_mailTop.png) no-repeat 0 0; margin: 0 auto;  }
+.rule-wdgs-cont { width: 255px; background:url(../img/p2_icon_mailCont.png) repeat-y center 0; margin: 0 auto; }
+.rule-wdgs-bottom { width: 255px; height:26px; background:url(../img/p2_icon_mailBottom.png) no-repeat 0 0;  margin: 0 auto; }
+.rule-wdgs-cont p { width: 225px;  font-size: 12px; color: #c0c0c0; line-height: 2; padding: 4px 0px; margin: 0 auto;}
 .rule-wdgs-cont p.h18 { height: 18px;}
 .rule-wdgs-cont p strong { display: block; font:bold 14px/18px '\5FAE\8F6F\96C5\9ED1'; color: #5a5a5a; margin-bottom: 3px;}
+.rule-wdgs-cont p.p-first {  }
+.rule-wdgs-cont p.p-first strong {display: inline-block; }
 .rule-wdgs-cont p.p-last {  text-align: right;  }
 .rule-wdgs-cont p.p-last strong {display: inline-block; }
 .rule-wdgs-cont p.p-last span {padding-right:20px;}

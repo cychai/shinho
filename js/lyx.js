@@ -17,7 +17,6 @@ $(function () {
 	}
 	$('#swipe-page').append($li);
 	$('#swipe-page').find('li').eq(0).addClass('on');
-
 	var elem = document.getElementById('mySwipe');
 	window.mySwipe = Swipe(elem, {
 	  startSlide: 0,
