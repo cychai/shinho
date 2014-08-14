@@ -14,6 +14,9 @@ img{
 }
 
 .nav-bottom{
+	position: fixed;
+	bottom:0;
+	width: 100%;
 	display: -moz-box; 
     display: -webkit-box; 
     display: box; 
@@ -21,6 +24,7 @@ img{
     border-top: 1px solid #b6aa7e;
     font-size: 15px;
     height: 44px;
+    z-index: 9;
 }
 .nav-bottom span{
 	display: block;
