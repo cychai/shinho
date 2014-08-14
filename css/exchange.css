@@ -1,0 +1,65 @@
+/* 兑换 */
+.exchange{
+	color: #5a5a5a;
+	font-size: 15px;
+	line-height: 20px;
+}
+.exchange .title{
+	clear: both;
+	font-size: 15px;
+	line-height: 30px;
+	color: #5a5a5a;
+	padding-left: 20px;
+	background: url(../img/icon_cha.png) no-repeat 5px 0 #f8f8f4;
+	background-size: 12px 28px;
+	height: 30px;
+}
+
+
+.exchange .result-msg{
+	width: 240px;
+	margin: 10px auto;
+}
+.exchange .result-msg img{
+	width: 240px;
+}
+
+.exchange .form{
+	padding: 10px;
+}
+.exchange .form p{
+	padding-bottom: 5px;
+
+	display: -moz-box; 
+    display: -webkit-box; 
+    display: box; 
+}
+.exchange .form p span{
+	display: block;
+}
+.exchange .form p span:first-child{
+	width: 80px;
+	text-align: right;
+}
+.exchange .form p span:last-child{
+	-moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+}
+.exchange .form p input{
+	height: 25px;
+	width: 100%;
+	border: 1px solid #aea7a5;
+}
+.exchange .form p textarea{
+	width: 98%;
+	min-height: 105px;
+	border: 1px solid #aea7a5;
+	color: #c0c0c0;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 2px;
+}
+.exchange .form{
+
+}

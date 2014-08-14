@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>分享锋味故事 定制专属酱油</title>
+   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+   <meta name="format-detection" content="telephone=no">
+   <meta name="description" content="六月鲜 分享锋味故事，定制专属酱油" />
+   <meta name="keywords" content="六月鲜,锋味故事,定制,专属酱油" />
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/common.css">
+   <link rel="stylesheet" href="css/mysoy.css">
+   <link rel="stylesheet" href="css/friends.css">
+</head>
+<body>
+   <div class="banner">
+      <img src="img/top_banner.jpg" alt="六月鲜,12道锋味">
+   </div>
+   <div class="main">
+      <div class="mysoy friends">
+         <div class="thanks">
+            <span class="avatar">
+               <img src="img/temp/temp_avatar_01.png" alt="">
+            </span>
+            <span class="thx-content">
+               亲，非常感谢！你的点击帮我打到了35毫升酱油。你也来一瓶吧~
+            </span>
+         </div>
+         <div class="get-soy">
+            <div class="soy-wrap">
+               <div class="soy-ruler">
+                  <img src="img/soy_ruler.png" alt="">
+                  <span class="soy-ruler-numT">160ml</span>
+                  <span class="soy-ruler-numNow">
+                     <strong><span></span>ml</strong><img src="img/soy_ruler_icon.png" alt="">
+                  </span>
+                  <span class="soy-ruler-numB">0</span>
+               </div>
+               <div class="soy-num">
+                  <img src="img/soy_num.png" alt="">
+               </div>
+            </div>
+            <div class="soy-text">
+               <p style="font-size:15px; line-height:20px;">王小二 为闺蜜打的酱油</p>
+               <p style="border-bottom: 1px dotted #ca3f14; padding-bottom: 5px; margin-bottom:10px;">还差30毫升，即可兑换酱油一瓶！</p>
+               
+               <div class="ta-feng-story">
+                  <p class="p-head">
+                     <span class="avatar">
+                        <img src="img/temp/temp_avatar_01.png" alt="">
+                     </span>
+                     <span>Ta 的锋味故事</span>
+                  </p>
+                  <div class="letter">
+                     <p class="letter-title">
+                        <span class="letter-to">To 小四</span>
+                        <span class="letter-icon"><img src="img/icon_logo.png" alt=""></span>
+                     </p>
+                     <p class="letter-content">
+                        超爱你的红烧肉，用六月鲜味道会更好，我以后会多多去蹭饭的哦，哈哈哈 O(∩_∩)O~
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+         <div class="soy-action">
+            <span class="btn-red">我也来一瓶</span>
+         </div>
+         <div class="middle-banner">
+            <a href=""><img src="img/middle_banner.png" alt="" style="width:100%"></a>
+         </div>
+         <div class="title" style="margin-top:10px;">
+            <span>大家的峰味故事</span> 
+            <span class="title-right"><a href="">分享我的故事>></a></span>
+         </div>
+         <div class="story-list">
+            <div class="story-item">
+               <div class="avatar">
+                  <img src="img/temp/temp_avatar_01.png" alt="">
+               </div>
+               <div class="stroy-detail">
+                  <p>龙啸天 给“闺蜜”打了一瓶酱油, 说道</p>
+                  <p>超爱你的红烧肉，用六月鲜味道会更好，我以后会多多去蹭饭的哦，哈哈哈 O(∩_∩)O~</p>
+               </div>
+            </div>
+            <div class="story-item">
+               <div class="avatar">
+                  <img src="img/temp/temp_avatar_01.png" alt="">
+               </div>
+               <div class="stroy-detail">
+                  <p>龙啸天 给“闺蜜”打了一瓶酱油, 说道</p>
+                  <p>超爱你的红烧肉，用六月鲜味道会更好，我以后会多多去蹭饭的哦，哈哈哈 O(∩_∩)O~</p>
+               </div>
+            </div>
+            <div class="more-story">
+               <span class="btn-more-story"></span>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+   $(function(){
+      var data = 100;
+      var dataChange = parseInt(data,10) * 150 / 160 ;
+      var bottom = parseInt(dataChange,10) - 7
+      $('.soy-ruler-numNow strong span').text(data);
+      $('.soy-ruler-numNow').css({'bottom':bottom+'px'});
+   });
+</script>
+</html>

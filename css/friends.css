@@ -1,0 +1,48 @@
+/* 朋友酱油 */
+.friends{
+   
+}
+.friends .thanks{
+   margin: 10px;
+   border-bottom: 1px dotted #b4b3af;
+
+   display: -moz-box; 
+   display: -webkit-box; 
+   display: box; 
+}
+.friends .thanks span{
+   display: block;
+}
+.friends .thanks .avatar{
+   width: 45px;
+   margin-right: 3px;
+}
+.friends .thanks .avatar img{
+   width: 45px;
+   height: 45px;
+}
+.friends .thanks .thx-content{
+   -moz-box-flex: 1; 
+   -webkit-box-flex: 1; 
+   box-flex: 1;
+
+   font-size: 12px;
+   line-height: 18px;
+   color: #989191;
+   padding: 5px;
+   border: 1px solid #bcbcbc;
+   background: url(../img/icon_poiner.png) no-repeat -6px center #f8f8f8;
+   background-size: 6px 14px;
+}
+.friends .thanks span{
+   
+}
+
+.friends .ta-feng-story  { }
+.friends .ta-feng-story .p-head span { display: inline-block; vertical-align: bottom; }
+.friends .ta-feng-story .p-head .avatar img { display: inline-block; width: 26px;height: 26px;  }
+.friends .ta-feng-story .letter { background-color: #fff; border: 1px #c7c5c1 solid; padding: 5px 10px 20px ; margin-top: 10px;}
+.friends .ta-feng-story .letter .letter-title { position: relative; margin: 5px 0 5px; z-index: 9;}
+.friends .ta-feng-story .letter .letter-icon { position: absolute; right: 0;top: -3px; z-index: 99;}
+.friends .ta-feng-story .letter .letter-icon img { display: inline-block; width: 40px;}
+.friends .ta-feng-story .letter .letter-content { }
