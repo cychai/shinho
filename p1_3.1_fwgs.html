@@ -21,7 +21,18 @@
          <div class="article">
             <p class="content">与谢霆锋一起，分享你的峰味故事，我们将在北京、南京、杭州、上海，为你精选一家餐厅，为你打造一场难忘的美食经历。</p>
             <div class="slider">
-               <img src="img/temp/temp_slider_02.png" alt="">
+               <div id='mySwipe' class='swipe'>
+                  <div class='swipe-wrap'>
+                     <div><img src="img/temp/pic_300x163_01.jpg" alt=""></div>
+                     <div><img src="img/temp/pic_300x163_00.jpg" alt=""></div>
+                     <div><img src="img/temp/pic_300x163_01.jpg" alt=""></div>
+                     <div><img src="img/temp/pic_300x163_00.jpg" alt=""></div>
+                  </div>
+               </div>
+               <div class="swipe-page" >
+                  <ul id="swipe-page">
+                  </ul>
+               </div>
             </div>
          </div>
          <div class="title">“12道锋味”-谢霆锋的锋味故事</div>
@@ -43,5 +54,6 @@
    </div>
 </body>
 <script src="js/jquery.js"></script>
+<script src='js/swipe.js'></script>
 <script src="js/lyx.js"></script>
 </html>

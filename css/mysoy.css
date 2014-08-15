@@ -41,9 +41,9 @@
 }
 .mysoy .get-soy .get-action span{
 	display: inline-block;
-	width: 85px;
+	width: 65px;
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	height: 30px;
 	padding-top: 10px;
 }
@@ -53,6 +53,7 @@
 	color: #7b4c36;
 	border: 1px solid #ab9568;
 	border-radius: 5px;
+	margin-right: 5px;
 }
 .mysoy .get-soy .get-action span.btn-duihuan{
 	color: #b0b1b2;
@@ -140,7 +141,7 @@
 
 
 /* bk 酱油刻度 */
-.mysoy .get-soy .soy-wrap { position: relative; z-index: 9; }
+.mysoy .get-soy .soy-wrap { position: relative; padding-top: 20px; z-index: 9; }
 .mysoy .get-soy .soy-ruler { position: absolute; left: 50px; top: 42px; display: block; height: 153px; z-index: 99; }
 .mysoy .get-soy .soy-ruler span { font:nomal 12px/18px Arial; color: #03a574;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numT { position: absolute; left: -46px; top: -5px; text-align: center; z-index: 99;}
@@ -149,3 +150,5 @@
 .mysoy .get-soy .soy-ruler .soy-ruler-numNow strong,
 .mysoy .get-soy .soy-ruler .soy-ruler-numNow img  { display: inline-block; vertical-align: middle; font-weight: normal;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numNow strong {position: relative; left: -4px; width: 40px;}
+
+body{padding-bottom: 50px;}

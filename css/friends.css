@@ -48,3 +48,5 @@
 .friends .ta-feng-story .letter .letter-icon { position: absolute; right: 0;top: -3px; z-index: 99;}
 .friends .ta-feng-story .letter .letter-icon img { display: inline-block; width: 40px;}
 .friends .ta-feng-story .letter .letter-content { }
+
+body { padding-bottom: 0;}
