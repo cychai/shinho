@@ -20,7 +20,8 @@
          <div class="title">我为“基友”打的酱油</div>
          <div class="get-soy">
             <div class="soy-wrap">
-               <div class="soy-ruler">
+               <!-- begin 左侧刻度显示-->
+               <div class="soy-ruler" style="display:none;">
                   <img src="img/soy_ruler.png" alt="">
                   <span class="soy-ruler-numT">160ml</span>
                   <span class="soy-ruler-numNow">
@@ -28,8 +29,10 @@
                   </span>
                   <span class="soy-ruler-numB">0</span>
                </div>
-               <div class="soy-num">
-                  <img src="img/soy_num.png" alt="">
+               <!-- end 左侧刻度显示 -->
+               <div class="soy-num" style="width:80px;">
+                  <!-- 刻度图片从01开始，到17结束，图片在 img/du/ 下 -->
+                  <img src="img/du/kd_01.png" style="width:60px; overflow:hidden;">
                </div>
             </div>
             <div class="soy-text">

@@ -51,5 +51,5 @@
 .friends .ta-feng-story .letter .letter-content .span-open{position: absolute; right: 0px; bottom: 0; display: inline-block; width: 36px; height: 20px; color: #206aae; background-color: #fff; cursor: pointer;}
 
 body { padding-bottom: 0;}
-.letter-h33 { height: 33px; overflow: hidden; }
+.letter-h33 { /*height: 33px; overflow: hidden; */}
 .letter-h33 .letter-content { height: 20px; }

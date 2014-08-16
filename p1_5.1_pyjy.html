@@ -28,7 +28,8 @@
             </span>
          </div>
          <div class="get-soy">
-            <div class="soy-wrap">
+               <div class="soy-wrap">
+               <!-- begin 左侧刻度显示-->
                <div class="soy-ruler">
                   <img src="img/soy_ruler.png" alt="">
                   <span class="soy-ruler-numT">160ml</span>
@@ -37,8 +38,10 @@
                   </span>
                   <span class="soy-ruler-numB">0</span>
                </div>
-               <div class="soy-num">
-                  <img src="img/soy_num.png" alt="">
+               <!-- end 左侧刻度显示 -->
+               <div class="soy-num" style="width:80px;">
+                  <!-- 刻度图片从01开始，到17结束，图片在 img/du/ 下 -->
+                  <img src="img/du/kd_01.png" style="width:60px; overflow:hidden;">
                </div>
             </div>
             <div class="soy-text">
@@ -59,7 +62,7 @@
                      </p>
                      <p class="letter-content">
                         超爱你的红烧肉，用六月鲜味道会更好，我以后会多多去蹭饭的哦，哈哈哈 O(∩_∩)O~
-                        <span class="span-open">展开&darr;</span>
+                        <!-- <span class="span-open">展开&darr;</span> -->
                      </p>
                   </div>
                </div>
@@ -104,7 +107,9 @@
 </body>
 <script src="js/jquery.js"></script>
 <script type="text/javascript">
+   /*
    $(function(){
+      // 展开收起状态去掉 
       var data = 100;
       var dataChange = parseInt(data,10) * 150 / 160 ;
       var bottom = parseInt(dataChange,10) - 7
@@ -121,6 +126,8 @@
             $('.span-open').text('展开↓')
          }
       )
+
    });
+   */
 </script>
 </html>
