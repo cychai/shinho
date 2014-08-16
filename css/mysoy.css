@@ -156,13 +156,29 @@
 .soy-num {width: 60px; overflow: hidden;}
 body{padding-bottom: 50px;}
 
+
+/* ta 的锋味故事 */
+.mysoy .ta-feng-story  { }
+.mysoy .ta-feng-story .p-head span { display: inline-block; vertical-align: bottom; }
+.mysoy .ta-feng-story .p-head .avatar img { display: inline-block; width: 26px;height: 26px;  }
+.mysoy .ta-feng-story .letter { background-color: #fff; border: 1px #c7c5c1 solid; padding: 5px 10px 20px ; margin-top: 10px;}
+.mysoy .ta-feng-story .letter .letter-title { position: relative; margin: 5px 0 5px; z-index: 9;}
+.mysoy .ta-feng-story .letter .letter-icon { position: absolute; right: 0;top: -3px; z-index: 99;}
+.mysoy .ta-feng-story .letter .letter-icon img { display: inline-block; width: 40px;}
+.mysoy .ta-feng-story .letter .letter-content {position: relative; z-index: 9;  }
+.mysoy .ta-feng-story .letter .letter-content .span-open{position: absolute; right: 0px; bottom: 0; display: inline-block; width: 36px; height: 20px; color: #206aae; background-color: #fff; cursor: pointer;}
+
+
 /* 活动分享 */
 .mysoy .story-list{
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 .hdfx {
 	display: none;
 	position: fixed;
 	top: 0;
 	z-index: 99;
+}
+.hdfx .hdfx-wrap{
+	padding: 15px 0 0 0;
 }
