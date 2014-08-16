@@ -52,13 +52,14 @@
                      </span>
                      <span>Ta 的锋味故事</span>
                   </p>
-                  <div class="letter">
+                  <div class="letter letter-h33">
                      <p class="letter-title">
                         <span class="letter-to">To 小四</span>
                         <span class="letter-icon"><img src="img/icon_logo.png" alt=""></span>
                      </p>
                      <p class="letter-content">
                         超爱你的红烧肉，用六月鲜味道会更好，我以后会多多去蹭饭的哦，哈哈哈 O(∩_∩)O~
+                        <span class="span-open">展开&darr;</span>
                      </p>
                   </div>
                </div>
@@ -109,6 +110,17 @@
       var bottom = parseInt(dataChange,10) - 7
       $('.soy-ruler-numNow strong span').text(data);
       $('.soy-ruler-numNow').css({'bottom':bottom+'px'});
+
+      $('.span-open').toggle(
+         function(){
+            $('.letter').removeClass('letter-h33')
+            $('.span-open').text('收起↑')
+         },
+         function(){
+            $('.letter').addClass('letter-h33')
+            $('.span-open').text('展开↓')
+         }
+      )
    });
 </script>
 </html>

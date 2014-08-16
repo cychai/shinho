@@ -47,6 +47,9 @@
 .friends .ta-feng-story .letter .letter-title { position: relative; margin: 5px 0 5px; z-index: 9;}
 .friends .ta-feng-story .letter .letter-icon { position: absolute; right: 0;top: -3px; z-index: 99;}
 .friends .ta-feng-story .letter .letter-icon img { display: inline-block; width: 40px;}
-.friends .ta-feng-story .letter .letter-content { }
+.friends .ta-feng-story .letter .letter-content {position: relative; z-index: 9;  }
+.friends .ta-feng-story .letter .letter-content .span-open{position: absolute; right: 0px; bottom: 0; display: inline-block; width: 36px; height: 20px; color: #206aae; background-color: #fff; cursor: pointer;}
 
 body { padding-bottom: 0;}
+.letter-h33 { height: 33px; overflow: hidden; }
+.letter-h33 .letter-content { height: 20px; }
