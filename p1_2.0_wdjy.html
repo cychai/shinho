@@ -10,6 +10,7 @@
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/common.css">
    <link rel="stylesheet" href="css/mysoy.css">
+   <link rel="stylesheet" href="css/p2_hdfx.css">
 </head>
 <body>
    <div class="banner">
@@ -101,15 +102,35 @@
          <span>活动规则</span>
       </div>
    </div>
+   <div class="hdfx">
+      <div class="hdfx-wrap">
+         <p><img src="img/p2_icon_share.png" alt="icon_share"></p>
+         <p class="p-text">点击右上角，<br/>通过<span class="c-green">【发送给好友】</span>或<br/><span class="c-green">【分享到朋友圈】</span>，<br/>喊朋友一起打酱油~
+         </p>
+         <p><a class="btn-djgb" href="javascript:;" title="点击关闭"></a></p>
+      </div>
+   </div>
 </body>
 <script src="js/jquery.js"></script>
 <script type="text/javascript">
+   /* 去掉酱油瓶刻度显示
    $(function(){
       var data = 90;
       var dataChange = parseInt(data,10) * 150 / 160 ;
       var bottom = parseInt(dataChange,10) - 7
       $('.soy-ruler-numNow strong span').text(data);
       $('.soy-ruler-numNow').css({'bottom':bottom+'px'});
+   });
+   */
+   $(function () {
+      // 显示活动分享
+      $(".mysoy .btn-invit").on('click', function(){
+         var _h = $(document).height();
+         $(".hdfx").height(_h).show();
+      });
+      $(".hdfx .btn-djgb").on('click', function(){
+         $(".hdfx").hide();
+      });
    });
 </script>
 </html>
