@@ -142,7 +142,7 @@
 
 /* bk 酱油刻度 */
 .mysoy .get-soy .soy-wrap { position: relative; padding-top: 20px; z-index: 9; }
-.mysoy .get-soy .soy-ruler { position: absolute; left: 50px; top: 42px; display: block; height: 153px; z-index: 99; }
+.mysoy .get-soy .soy-ruler { position: absolute; left: 50px; top: 62px; display: block; height: 153px; z-index: 99; }
 .mysoy .get-soy .soy-ruler span { font:nomal 12px/18px Arial; color: #03a574;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numT { position: absolute; left: -46px; top: -5px; text-align: center; z-index: 99;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numB { position: absolute; left: -26px; bottom: -6px; text-align: center; z-index: 99;}
