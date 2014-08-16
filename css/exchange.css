@@ -48,11 +48,11 @@
 }
 .exchange .form p input{
 	height: 25px;
-	width: 100%;
+	width: 90%;
 	border: 1px solid #aea7a5;
 }
 .exchange .form p textarea{
-	width: 98%;
+	width: 94.5%;
 	min-height: 105px;
 	border: 1px solid #aea7a5;
 	color: #c0c0c0;

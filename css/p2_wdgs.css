@@ -23,6 +23,7 @@
 .rule .rule-main .rule-content p i{
 	width: 14px;
 	height: 14px;
+	line-height: 14px;
 	border-radius: 7px;
 	background-color: #d2442d;
 	display: inline-block;
