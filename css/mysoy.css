@@ -183,7 +183,7 @@ body{padding-bottom: 50px;}
 	padding: 15px 0 0 0;
 }
 
-/* */
+/* mysoy action 0816 */
 .mysoy .re-mysoy-action {
 	display: -moz-box; 
     display: -webkit-box; 
@@ -204,9 +204,14 @@ body{padding-bottom: 50px;}
 	min-width: 140px;
 	height: 30px;
 }
-.mysoy .re-mysoy-action .btn-share-story{
+.mysoy .re-mysoy-action .btn-share-story {
 
 }
-.mysoy .re-mysoy-action .btn-btn-invit{
+.mysoy .re-mysoy-action .btn-btn-invit {
 
+}
+
+/* */
+.ta-feng-story .letter .letter-title {
+	display: none;
 }
