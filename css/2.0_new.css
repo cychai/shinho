@@ -1,0 +1,24 @@
+/* 活动规则 */
+html,body { width: 100%; height: 100%;}
+.hdfx{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.75);
+}
+.hdfx-wrap { width: 86%; font:normal 15px/20px '\5FAE\8F6F\96C5\9ED1'; padding:65px 0 0; margin: 0px auto 0}
+.hdfx-wrap p { color: #fff; text-align: right; line-height: 1.6; }
+.hdfx-wrap .p-text { margin: 10px 0;}
+.hdfx-wrap p .c-green {color: #03a570 ;}
+.hdfx-wrap p .btn-djgb { display: inline-block; width: 90px; height: 37px; text-align: right; background: url(../img/p2_btn_close.png) no-repeat 0 0; }
+
+body.new {padding-bottom: 10px;}
+body.new .mysoy .story-list { padding-bottom: 10px;}
+.activity img {display: block; width: 94%; margin: 10px 3% 0;}
+.middle-banner { margin-bottom:10px;}
+
+.popup-shareMS { position: fixed; width: 300px; height: 130px; left:50%; top: 50%; z-index: 999; margin: -65px 0 0 -150px; }
+.popup-shareMS-cont { width: 90% ;height: 100%; background: url(../img/bg_popup_fxms.png) no-repeat 0 0; background-size:100%; padding:35px 5% 0;}
+.popup-shareMS-cont textarea { width: 98%; height: 60px; font:normal 12px/18px '\5FAE\8F6F\96C5\9ED1'; color: #333;}
+.popup-shareMS .btn-confirm ,.popup-shareMS .btn-cancle{ position: absolute; top: 13px; display: inline-block; width: 22px; height:22px; background-size:100%;}
+.popup-shareMS .btn-confirm { right: 20px; background: url(../img/bg_icon_confirm.png) no-repeat 0 0;}
+.popup-shareMS .btn-cancle { left: 20px; background: url(../img/bg_icon_cancle.png) no-repeat 0 0;}
