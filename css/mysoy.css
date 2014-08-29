@@ -142,7 +142,7 @@
 
 /* bk 酱油刻度 */
 .mysoy .get-soy .soy-wrap { position: relative; padding-top: 20px; z-index: 9; }
-.mysoy .get-soy .soy-ruler { position: absolute; left: 50px; top: 62px; display: block; height: 153px; z-index: 99; }
+.mysoy .get-soy .soy-ruler { display: none; position: absolute; left: 50px; top: 62px; display: block; height: 153px; z-index: 99; }
 .mysoy .get-soy .soy-ruler span { font:nomal 12px/18px Arial; color: #03a574;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numT { position: absolute; left: -46px; top: -5px; text-align: center; z-index: 99;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numB { position: absolute; left: -26px; bottom: -6px; text-align: center; z-index: 99;}
@@ -151,4 +151,67 @@
 .mysoy .get-soy .soy-ruler .soy-ruler-numNow img  { display: inline-block; vertical-align: middle; font-weight: normal;}
 .mysoy .get-soy .soy-ruler .soy-ruler-numNow strong {position: relative; left: -4px; width: 40px;}
 
+
+.soy-num {width: 80px;}
+.soy-num {width: 60px; overflow: hidden;}
 body{padding-bottom: 50px;}
+
+
+/* ta 的锋味故事 */
+.mysoy .ta-feng-story  { }
+.mysoy .ta-feng-story .p-head span { display: inline-block; vertical-align: bottom; }
+.mysoy .ta-feng-story .p-head .avatar img { display: inline-block; width: 26px;height: 26px;  }
+.mysoy .ta-feng-story .letter { background-color: #fff; border: 1px #c7c5c1 solid; padding: 5px 10px 20px ; margin-top: 10px;}
+.mysoy .ta-feng-story .letter .letter-title { position: relative; margin: 5px 0 5px; z-index: 9;}
+.mysoy .ta-feng-story .letter .letter-icon { position: absolute; right: 0;top: -3px; z-index: 99;}
+.mysoy .ta-feng-story .letter .letter-icon img { display: inline-block; width: 40px;}
+.mysoy .ta-feng-story .letter .letter-content {position: relative; z-index: 9;  }
+.mysoy .ta-feng-story .letter .letter-content .span-open{position: absolute; right: 0px; bottom: 0; display: inline-block; width: 36px; height: 20px; color: #206aae; background-color: #fff; cursor: pointer;}
+
+
+/* 活动分享 */
+.mysoy .story-list{
+	padding-bottom: 50px;
+}
+.hdfx {
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+.hdfx .hdfx-wrap{
+	padding: 15px 0 0 0;
+}
+
+/* mysoy action 0816 */
+.mysoy .re-mysoy-action {
+	display: -moz-box; 
+    display: -webkit-box; 
+    display: box; 
+
+}
+.mysoy .re-mysoy-action span{
+
+	-moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+
+    font-size: 12px;
+}
+.mysoy .re-mysoy-action .btn-red{
+	margin: 15px 10px;
+	width: auto;
+	min-width: 140px;
+	height: 30px;
+}
+.mysoy .re-mysoy-action .btn-share-story {
+
+}
+.mysoy .re-mysoy-action .btn-btn-invit {
+
+}
+
+/* */
+.ta-feng-story .letter .letter-title {
+	display: none;
+}

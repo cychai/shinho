@@ -15,7 +15,7 @@
 	color: #5a5a5a;
 	font-size: 12px;
 	line-height: 18px;
-	padding: 8px 20px;
+	padding: 8px 0;
 }
 .rule .rule-main .rule-content{
 	padding-bottom: 20px;
@@ -60,4 +60,23 @@
 .rule-wdgs-cont p.p-last span {padding-right:20px;}
 .rule-wdgs .rule-content { margin-top:10px;}
 .rule-wdgs .rule-content p { line-height: 1.8}
-.rule-wdgs .btn-bar .btn-ljfx { display: block; width:300px; height: 38px; background:url(../img/p2_btn_ljfx.png) no-repeat 0 0;   padding-bottom: 20px; }
+.rule-wdgs .btn-bar { margin-top: 10px;}
+.rule-wdgs .btn-bar .btn-ljfx { display: block; width:300px; height: 38px; background:url(../img/p2_btn_ljfx.png) no-repeat 0 0;   padding-bottom: 15px; }
+
+.rule-wdgs .tip-story-input {
+	width: 216px;
+	min-height: 80px;
+	margin: 0 auto;
+}
+.rule-wdgs-cont .h18 {
+	display: none;
+}
+.rule-wdgs-cont .tip-from-input{
+	width: 166px;
+}
+.rule-wdgs-cont p.p-last {
+	text-align: left;
+}
+.rule-wdgs-cont .tip-from-text {
+	display: none;
+}

@@ -10,25 +10,19 @@
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/common.css">
    <link rel="stylesheet" href="css/mysoy.css">
-   <link rel="stylesheet" href="css/friends.css">
+   <link rel="stylesheet" href="css/2.0_new.css">
 </head>
-<body>
+<body class="new">
    <div class="banner">
       <img src="img/top_banner.jpg" alt="六月鲜,12道锋味">
    </div>
+   <div class="activity">
+      <a href="#"><img src="img/pic_srwy_step1.png" alt=""></a>
+   </div>
    <div class="main">
-      <div class="mysoy friends">
-         <div class="thanks">
-            <span class="avatar">
-               <img src="img/temp/temp_avatar_01.png" alt="">
-            </span>
-            <span class="thx-content">
-               <i class="icon-corner"></i>
-               亲，非常感谢！你的点击帮我打到了35毫升酱油。你也来一瓶吧~
-            </span>
-         </div>
+      <div class="mysoy">
          <div class="get-soy">
-               <div class="soy-wrap">
+            <div class="soy-wrap">
                <!-- begin 左侧刻度显示-->
                <div class="soy-ruler" style="display:none;">
                   <img src="img/soy_ruler.png" alt="">
@@ -45,9 +39,15 @@
                </div>
             </div>
             <div class="soy-text">
-               <p style="font-size:15px; line-height:20px;">王小二 为闺蜜打的酱油</p>
-               <p style="border-bottom: 1px dotted #ca3f14; padding-bottom: 5px; margin-bottom:10px;">还差30毫升，即可兑换酱油一瓶！</p>
-               
+               <p style="font-size:15px; line-height:20px;border-bottom: 1px dotted #ca3f14; padding-bottom: 5px; margin-bottom:10px;">再打 <font style="color: #03a574;">105ml</font> 即可兑换一瓶酱油</p>
+               <!-- 替换为朋友酱油的锋味故事模块 -->
+               <!--
+               <p style="margin-top:10px;">分享活动给好友，有一位好友点击打开，您将获得5-50毫升酱油，分享越多，集的越快~</p>
+               <p class="get-action">
+                  <a href=""><span class="btn-again">再领50ml</span></a>
+                  <a href=""><span class="btn-duihuan">兑换</span></a>
+               </p>
+               -->
                <div class="ta-feng-story">
                   <p class="p-head">
                      <span class="avatar">
@@ -70,15 +70,16 @@
 
             </div>
          </div>
-         <div class="soy-action">
-            <span class="btn-red">我也来一瓶</span>
+         <div class="soy-action re-mysoy-action">
+            <!-- <span class="btn-red btn-invit">立刻喊朋友帮我打酱油</span> -->
+            <span class="btn-red btn-invit">喊朋友帮我打满</span>
          </div>
          <div class="middle-banner">
             <a href=""><img src="img/middle_banner.png" alt="" style="width:100%"></a>
          </div>
-         <div class="title" style="margin-top:10px;">
+         <div class="title">
             <span>大家的峰味故事</span> 
-            <span class="title-right"><a href="">分享我的故事>></a></span>
+            <!-- <span class="title-right"><a href="">分享我的故事>></a></span> -->
          </div>
          <div class="story-list">
             <div class="story-item">
@@ -104,31 +105,62 @@
             </div>
          </div>
       </div>
+<!--       <div class="nav-bottom">
+         <span>首页</span>
+         <span class="active">我的酱油</span>
+         <span>锋味故事</span>
+         <span>活动规则</span>
+      </div> -->
+   </div>
+   <div class="hdfx">
+      <div class="hdfx-wrap">
+         <p><img src="img/p2_icon_share.png" alt="icon_share"></p>
+         <p class="p-text">点击右上角，<br/>通过<span class="c-green">【发送给好友】</span>或<br/><span class="c-green">【分享到朋友圈】</span>，<br/>喊朋友一起打酱油~
+         </p>
+         <p><a class="btn-djgb" href="javascript:;" title="点击关闭"></a></p>
+      </div>
+   </div>
+   <div class="popup-shareMS">
+      <div class="popup-shareMS-cont">
+         <textarea name="" id="" cols="30" rows="10"></textarea>
+         <a class="btn-confirm" href="#"></a>
+         <a class="btn-cancle" href="#"></a>
+      </div>
    </div>
 </body>
 <script src="js/jquery.js"></script>
 <script type="text/javascript">
-   /*
+   /* 去掉酱油瓶刻度显示
    $(function(){
-      // 展开收起状态去掉 
-      var data = 100;
+      var data = 90;
       var dataChange = parseInt(data,10) * 150 / 160 ;
       var bottom = parseInt(dataChange,10) - 7
       $('.soy-ruler-numNow strong span').text(data);
       $('.soy-ruler-numNow').css({'bottom':bottom+'px'});
-
-      $('.span-open').toggle(
-         function(){
-            $('.letter').removeClass('letter-h33')
-            $('.span-open').text('收起↑')
-         },
-         function(){
-            $('.letter').addClass('letter-h33')
-            $('.span-open').text('展开↓')
-         }
-      )
-
    });
    */
+   $(function () {
+      // 显示活动分享
+      $(".mysoy .btn-invit").on('click', function(){
+         var _h = $(document).height();
+         $(".hdfx").height(_h).show();
+      });
+      $(".hdfx .btn-djgb").on('click', function(){
+         $(".hdfx").hide();
+      });
+
+      // 分享你的美食故事
+      $('.btn-cancle').on('click', function(){
+         $('.popup-shareMS').hide();
+      });
+      $('.btn-confirm').on('click', function(){
+         var value = $('.popup-shareMS textarea').val();
+         if(value){
+            $('.popup-shareMS').hide();
+         }else{
+            alert("请填写要分享的内容");
+         }
+      });
+   });
 </script>
 </html>

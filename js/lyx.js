@@ -1,7 +1,7 @@
 $(function () {
 	$(".btn-join").on('click', function() {
 		$(".index-wrap").hide();
-		$(".send-pop").show();
+		$(".send-pop").eq(0).show();
 	});
 
 	$(".send-cancel").on('click', function() {
