@@ -217,3 +217,16 @@ body{padding-bottom: 50px;}
 .ta-feng-story .letter .letter-title {
 	display: none;
 }
+
+/* mysoy add du-num */
+.mysoy .soy-num {
+	position: relative;
+}
+.mysoy .soy-num .soy-du	{
+	display: block;
+	position: absolute;
+	text-align: center;
+	width: 60px;
+	font-size: 12px;
+	z-index: 10;
+}
