@@ -22,3 +22,6 @@ body.new .mysoy .story-list { padding-bottom: 50px;}
 .popup-shareMS .btn-confirm ,.popup-shareMS .btn-cancle{ position: absolute; top: 13px; display: inline-block; width: 22px; height:22px; background-size:100%;}
 .popup-shareMS .btn-confirm { right: 20px; background: url(../img/bg_icon_confirm.png) no-repeat 0 0;}
 .popup-shareMS .btn-cancle { left: 20px; background: url(../img/bg_icon_cancle.png) no-repeat 0 0;}
+
+body {position: relative; height: auto; z-index: 9;}
+.fixfixed .nav-bottom { position: absolute;}
