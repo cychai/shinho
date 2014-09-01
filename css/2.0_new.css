@@ -12,7 +12,7 @@ html,body { width: 100%; height: 100%;}
 .hdfx-wrap p .btn-djgb { display: inline-block; width: 90px; height: 37px; text-align: right; background: url(../img/p2_btn_close.png) no-repeat 0 0; }
 
 body.new {padding-bottom: 10px;}
-body.new .mysoy .story-list { padding-bottom: 10px;}
+body.new .mysoy .story-list { padding-bottom: 50px;}
 .activity img {display: block; width: 94%; margin: 10px 3% 0;}
 .middle-banner { margin-bottom:10px;}
 
@@ -22,3 +22,6 @@ body.new .mysoy .story-list { padding-bottom: 10px;}
 .popup-shareMS .btn-confirm ,.popup-shareMS .btn-cancle{ position: absolute; top: 13px; display: inline-block; width: 22px; height:22px; background-size:100%;}
 .popup-shareMS .btn-confirm { right: 20px; background: url(../img/bg_icon_confirm.png) no-repeat 0 0;}
 .popup-shareMS .btn-cancle { left: 20px; background: url(../img/bg_icon_cancle.png) no-repeat 0 0;}
+
+body {position: relative; height: auto; z-index: 9;}
+.fixfixed .nav-bottom { position: absolute;}
