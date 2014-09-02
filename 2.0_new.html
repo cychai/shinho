@@ -63,7 +63,7 @@
                         <span class="letter-to">To 小四</span>
                         <span class="letter-icon"><img src="img/icon_logo.png" alt=""></span>
                      </p>-->
-                     <p class="letter-content">
+                     <p class="letter-content" id="letter-content">
                         超爱你的红烧肉，用六月鲜味道会更好，我以后会多多去蹭饭的哦，哈哈哈 O(∩_∩)O~
                         <!-- <span class="span-open">展开&darr;</span> -->
                      </p>
@@ -116,7 +116,7 @@
          <p><a class="btn-djgb" href="javascript:;" title="点击关闭"></a></p>
       </div>
    </div>
-   <div class="popup-shareMS">
+   <div class="popup-shareMS" style="display:none">
       <div class="popup-shareMS-cont">
          <textarea name="" id="" cols="30" rows="10"></textarea>
          <a class="btn-confirm" href="#"></a>
@@ -150,26 +150,32 @@
       $(".hdfx .btn-djgb").on('click', function(){
          $(".hdfx").hide();
       });
-
       // 分享你的美食故事
+      $('#letter-content').click(function(){
+         $('.nav-bottom').hide();
+         $('.popup-shareMS').show();
+      })
+
       $('.btn-cancle').on('click', function(){
          $('.popup-shareMS').hide();
+         navShow();
+         return false;
       });
       $('.btn-confirm').on('click', function(){
          var value = $('.popup-shareMS textarea').val();
          if(value){
             $('.popup-shareMS').hide();
+            navShow();
          }else{
             alert("请填写要分享的内容");
+            return false;
          }
       });
-      // 修复bug：点击textarea后，fixed失灵问题
-      $('.popup-shareMS-cont textarea').focus(function(){
-      	$('body').addClass('fixfixed');
-      })
-      $('.popup-shareMS-cont textarea').blur(function(){
-      	$('body').removeClass('fixfixed');
-      })
    });
+   function navShow(){
+      $(window).scroll(function(){
+         $('.nav-bottom').show();
+      })
+   }
 </script>
 </html>
